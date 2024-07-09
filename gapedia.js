@@ -116,7 +116,7 @@ function speak(text) {
 
           utterance.lang = "id-ID"; // Atur bahasa yang sesuai
 
-          utterance.rate = rate; // Atur kecepatan baca
+          utterance.rate = 0.5; // Atur kecepatan baca
 
           speechSynthesis.speak(utterance);
 
@@ -136,7 +136,7 @@ function speak(text) {
 
           currentParagraph++;
 
-          setTimeout(play, 400); // Jeda 500ms sebelum membaca paragraf berikutnya
+          setTimeout(play, 500); // Jeda 500ms sebelum membaca paragraf berikutnya
 
       }
 
