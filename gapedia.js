@@ -136,7 +136,7 @@ function speak(text) {
 
           currentParagraph++;
 
-          setTimeout(play, 500); // Jeda 500ms sebelum membaca paragraf berikutnya
+          setTimeout(play, 400); // Jeda 500ms sebelum membaca paragraf berikutnya
 
       }
 
