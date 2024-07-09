@@ -116,7 +116,7 @@ function speak(text) {
 
           utterance.lang = "id-ID"; // Atur bahasa yang sesuai
 
-          utterance.rate = 0.5; // Atur kecepatan baca
+          utterance.rate = 2.0; // Atur kecepatan baca
 
           speechSynthesis.speak(utterance);
 
