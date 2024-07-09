@@ -96,7 +96,7 @@ function speak(text) {
 
   const words = text.split(" ");
 
-  const rate = 1.0; // Atur kecepatan (contoh: 1.0 = 1x lebih cepat)
+  const rate = 1.2; // Atur kecepatan (contoh: 1.0 = 1x lebih cepat)
 
   function speakWord() {
 
@@ -116,7 +116,7 @@ function speak(text) {
 
           utterance.lang = "id-ID"; // Atur bahasa yang sesuai
 
-          utterance.rate = 1.0; // Atur kecepatan baca
+          utterance.rate = rate; // Atur kecepatan baca
 
           speechSynthesis.speak(utterance);
 
