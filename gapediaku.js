@@ -15,7 +15,7 @@ onload = function() {
         function onClickPlay() {
             if(!flag){
                 flag = true;
-                utterance = new SpeechSynthesisUtterance(document.querySelector('post-body').textContent);
+                utterance = new SpeechSynthesisUtterance(document.querySelector('post-body,postbody,.postbody,h1,h2,h3,h4,h5').textContent);
                 utterance.voice = getVoices()[0];
                 utterance.onend = function(){
                     flag = false; playEle.className = pauseEle.className = ''; stopEle.className = 'stopped';
