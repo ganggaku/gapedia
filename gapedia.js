@@ -6,7 +6,7 @@ let isPlaying = false;
 
 let currentParagraph = 0;
 
-const paragraphs = textContainer.querySelectorAll("p,h1,h2,h3,h4,h5,h6,post-body,.post-body");
+const paragraphs = textContainer.querySelectorAll("post-body,.post-body");
 
 let currentHighlightedSpan = null;
 
